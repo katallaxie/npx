@@ -1,6 +1,6 @@
 {
   "name": "katallaxie",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A personal card for Sebastian Doell (@katallaxie)",
   "main": "/bin/card.js",
   "bin": {
@@ -13,7 +13,7 @@
   "homepage": "https://katallaxie.me",
   "scripts": {
     "prepublish": "npm run build",
-    "build": "ts-node build.ts",
+    "build": "ts-node build.ts --color",
     "dev": "npm run build && node ./bin/card.js",
     "lint": "standard",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -57,6 +57,7 @@
     "url": "https://github.com/katallaxie/card/issues"
   },
   "dependencies": {
-    "clear": "^0.1.0"
+    "clear": "^0.1.0",
+    "katallaxie": "^1.0.2"
   }
 }
