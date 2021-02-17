@@ -1,6 +1,6 @@
 {
   "name": "@katallaxie/card",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A personal card for Sebastian Doell (@katallaxie)",
   "main": "/bin/card.js",
   "bin": {
@@ -56,8 +56,10 @@
   "bugs": {
     "url": "https://github.com/katallaxie/card/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "clear": "^0.1.0"
+  },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/"
   }
 }

@@ -3,11 +3,10 @@ import * as boxen from 'boxen'
 import * as fs from 'fs'
 import * as path from 'path'
 
-
 // Text + chalk definitions
 const data = {
-  name: chalk.white('           Sebastian Doell'),
-  handle: chalk.white('katallaxie'),
+  name: chalk.bold(chalk.whiteBright('           Sebastian Doell')),
+  handle: chalk.bold(chalk.whiteBright('katallaxie')),
   work: chalk.white('Solutions Architect at AWS'),
   twitter: chalk.gray('https://twitter.com/') + chalk.cyan('katallaxie'),
   github: chalk.gray('https://github.com/') + chalk.green('katallaxie'),
