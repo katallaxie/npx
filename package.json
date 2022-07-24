@@ -1,6 +1,6 @@
 {
   "name": "katallaxie",
-  "version": "1.0.5",
+  "version": "1.0.10",
   "description": "A personal card for Sebastian Doell (@katallaxie)",
   "main": "/bin/card.js",
   "bin": {
@@ -27,7 +27,7 @@
     "npx card",
     "business card"
   ],
-  "author": "Sebastian Doell <sebastian@katallaxie.me> (http://katallaxie.me)",
+  "author": "Sebastian Doell <sebastian@katallaxie.me> (http://katallaxie.dev)",
   "license": "MIT",
   "files": [
     "bin/card.js",
@@ -35,7 +35,7 @@
   ],
   "dependencies": {
     "clear": "^0.1.0",
-    "katallaxie": "^1.0.5"
+    "katallaxie": "^1.0.10"
   },
   "devDependencies": {
     "@types/boxen": "^3.0.1",
