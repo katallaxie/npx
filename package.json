@@ -34,8 +34,7 @@
     "bin/output"
   ],
   "dependencies": {
-    "clear": "^0.1.0",
-    "katallaxie": "^1.0.10"
+    "clear": "^0.1.0"
   },
   "devDependencies": {
     "@types/boxen": "^3.0.1",
