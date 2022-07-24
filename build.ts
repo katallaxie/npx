@@ -1,5 +1,5 @@
-import * as chalk from 'chalk'
-import * as boxen from 'boxen'
+import chalk from 'chalk'
+import boxen from 'boxen'
 import * as fs from 'fs'
 import * as path from 'path'
 
@@ -7,11 +7,11 @@ import * as path from 'path'
 const data = {
   name: chalk.bold(chalk.whiteBright('           Sebastian Doell')),
   handle: chalk.bold(chalk.whiteBright('katallaxie')),
-  work: chalk.white('Solutions Architect at AWS'),
+  work: chalk.white('Senior Software Engineer at Microsoft'),
   twitter: chalk.gray('https://twitter.com/') + chalk.cyan('katallaxie'),
   github: chalk.gray('https://github.com/') + chalk.green('katallaxie'),
   linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('katallaxie'),
-  web: chalk.cyan('https://katallaxie.me'),
+  web: chalk.cyan('https://katallaxie.dev'),
   npx:
     chalk.red('npx') +
     ' ' +
@@ -36,7 +36,7 @@ const carding = `${data.labelCard}  ${data.npx}`
 // Putting it into a variable that we can easily use for boxen
 const output = `
 ${heading}
-   
+
 ${working}
 
 ${twittering}

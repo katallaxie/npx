@@ -1,0 +1,7 @@
+{
+    "name": "katallaxie/card",
+    "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:latest",
+    "workspaceFolder": "/workspace",
+    "settings": {},
+    "extensions": []
+}
