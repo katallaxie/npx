@@ -2,8 +2,6 @@ name: release
 
 on:
   push:
-    branches:
-      - main
     tags:
       - 'v**'
 
@@ -35,7 +33,7 @@ jobs:
           registry-url: 'https://npm.pkg.github.com'
           scope: '@katallaxie'
       - run: npm ci
-      - run: echo "`jq '.name="bar"' package.json`" > package.json
+      - run: echo "`jq '.name="@katallaxie/card"' package.json`" > package.json
       - run: npm run build
       - run: npm publish
         env:
