@@ -1,6 +1,6 @@
 {
   "name": "katallaxie",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "A personal card for Sebastian Doell (@katallaxie)",
   "main": "/bin/card.js",
   "bin": {
