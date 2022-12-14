@@ -17,7 +17,7 @@ const data = {
     ' ' +
     chalk.white('@katallaxie/card  (via GitHub Package Registry)'),
   labelWork: chalk.white.bold('    Work:'),
-  labelMastodon: chalk.white.bold(' Mastodon:'),
+  labelMastodon: chalk.white.bold('Mastodon:'),
   labelGitHub: chalk.white.bold('  GitHub:'),
   labelLinkedIn: chalk.white.bold('LinkedIn:'),
   labelWeb: chalk.white.bold('     Web:'),
