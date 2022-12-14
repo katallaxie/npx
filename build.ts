@@ -17,7 +17,7 @@ const data = {
     ' ' +
     chalk.white('@katallaxie/card  (via GitHub Package Registry)'),
   labelWork: chalk.white.bold('    Work:'),
-  labelTwitter: chalk.white.bold(' Twitter:'),
+  labelMastodon: chalk.white.bold(' Mastodon:'),
   labelGitHub: chalk.white.bold('  GitHub:'),
   labelLinkedIn: chalk.white.bold('LinkedIn:'),
   labelWeb: chalk.white.bold('     Web:'),
@@ -27,7 +27,7 @@ const data = {
 // Preformating strings
 const heading = `${data.name} / ${data.handle}`
 const working = `${data.labelWork}  ${data.work}`
-const twittering = `${data.labelTwitter}  ${data.twitter}`
+const toot = `${data.labelMastodon}  ${data.mastodon}`
 const githubing = `${data.labelGitHub}  ${data.github}`
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
 const webing = `${data.labelWeb}  ${data.web}`
@@ -39,9 +39,9 @@ ${heading}
 
 ${working}
 
-${twittering}
 ${githubing}
 ${linkedining}
+${toot}
 ${webing}
 
 ${carding}
