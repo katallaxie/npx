@@ -8,9 +8,9 @@ const data = {
   name: chalk.bold(chalk.whiteBright('           Sebastian Doell')),
   handle: chalk.bold(chalk.whiteBright('katallaxie')),
   work: chalk.white('Head of PaaS Internal Services at IONOS Cloud'),
-  twitter: chalk.gray('https://twitter.com/') + chalk.cyan('katallaxie'),
   github: chalk.gray('https://github.com/') + chalk.green('katallaxie'),
   linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('katallaxie'),
+  mastodon: chalk.gray('https://hachyderm.io/') + chalk.cyan('@katallaxie'),
   web: chalk.cyan('https://katallaxie.dev'),
   npx:
     chalk.red('npx') +
