@@ -1,7 +1,7 @@
 {
   "name": "katallaxie",
   "version": "1.0.16",
-  "description": "A personal card for Sebastian Doell (@katallaxie)",
+  "description": "A personal card of Sebastian Doell (@katallaxie)",
   "main": "/bin/card.js",
   "bin": {
     "katallaxie": "./bin/card.js"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/katallaxie/card.git"
   },
-  "homepage": "https://katallaxie.me",
+  "homepage": "https://katallaxie.dev",
   "scripts": {
     "prepublish": "npm run build",
     "build": "ts-node build.ts --color=16m",
@@ -27,7 +27,11 @@
     "npx card",
     "business card"
   ],
-  "author": "Sebastian Doell <sebastian@katallaxie.me> (http://katallaxie.dev)",
+  "author": {
+    "email": "sebastian@katallaxie.dev",
+    "name": "Sebastian Doell (@katallaxie)",
+    "url": "https://katallaxie.dev"
+  },
   "license": "MIT",
   "files": [
     "bin/card.js",
