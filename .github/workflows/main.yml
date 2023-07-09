@@ -1,0 +1,21 @@
+# .github/workflows/main.yml
+
+name: main
+
+on:
+  push:
+  pull_request:
+    branches:
+    - main
+
+jobs:
+  smoke:
+     runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16.x'
+          registry-url: 'https://registry.npmjs.org'
+      - run: npm ci
+      - run: npm run build
