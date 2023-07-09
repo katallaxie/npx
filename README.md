@@ -19,3 +19,7 @@ You use the [GitHub registry](https://github.com/features/packages)?
 ```bash
 npx @katallaxie/card
 ```
+
+## License
+
+[MIT](/LICENSE)
